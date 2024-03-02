@@ -16,7 +16,7 @@ const Stopwatch = () => {
   const timeSetting = (sec) => {
      let min = Math.floor(sec / 60)
      let remSec = sec % 60
-     return `${min} : ${remSec < 10 ? "0" : ""}${remSec}`
+     return `${min}:${remSec < 10 ? "0" : ""}${remSec}`
   }
    useEffect(()=>{
     let intervalId
