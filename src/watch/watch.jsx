@@ -4,7 +4,7 @@ import { useState , useEffect} from 'react'
 
 const Stopwatch = () => {
  const [isRunning,setIsRunning] = useState(false)
- const [elapsedTime,setElapsedTime] = useState(55)
+ const [elapsedTime,setElapsedTime] = useState(0)
   const startStop = () => {
      setIsRunning(!isRunning)
   } 
