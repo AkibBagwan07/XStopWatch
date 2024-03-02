@@ -32,7 +32,7 @@ const Stopwatch = () => {
  return (
     <div className={styles.parent}>
         <h1>Stopwatch</h1>
-        <p>Time {timeSetting(elapsedTime)}</p>
+        <p>Time: {timeSetting(elapsedTime)}</p>
         <button onClick={startStop}>{isRunning ? "Stop" : "Start"}</button>
         <button onClick={reset} className={styles.buttonSpace}>Reset</button>
     </div>
